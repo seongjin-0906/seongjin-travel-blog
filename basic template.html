@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>연습용입니다</title>
+<style>
+body {
+    margin: 0;
+    background: #f2f6f9;
+    color: var(--ink);
+    font-family: impact, "times new roman", serif;
+    line-height: 1.6;
+}
+.poster{
+    width: 320px;
+    margin: 32px auto;
+    padding: 24px;
+    background-color: rgb(89, 160, 198);
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.12);
+}
+.poster_head {
+    margin-bottom: 16px;
+}
+.title{
+    font-size: 44px;
+    line-height: 1.05;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+.usa{
+    color: antiquewhite;
+}
+.tour{
+    color: bisque;
+}
+.subtitle{
+    margin-top: 8px;
+    font-size: 14px;
+    color: #e6eee8;
+    text-align: center;
+    letter-spacing: 0.3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.list li{
+    background-color: #fff;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 88px 1fr;
+    gap: 12px;
+    align-items: center;
+}
+.list img{
+    width: 80px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+.tour{
+    padding: 10px 12px;
+    border-radius: 8px;
+}
+.tour_title{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: rgb(0, 213, 255);
+}
+.tour_desc{
+    font-size: 14px;
+    line-height: 1.7;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+</style>
+</head>  
+<body>
+    <div class="poster">
+        <header class="poster_head">
+            <h1 class="title">
+                <span class="usa">미국</span>
+                <span class="usa_tour">여행</span>
+            </h1>
+        <p class="subtitle">미서부에서 미동부까지 정복</p>
+        </header>
+
+    <ul class="list">
+        <li class="california">
+            <img src="california.jpg" alt="캘리포니아">
+            <div class="tour">
+                <h3 class="tour_title">LA</h3>
+        <p class="tour_desc">우리가 생각하는 전형적인 미서부 낮은건물들과 헐리웃 사인까지!</p>
+            </div>
+        </li>
+    <li class="arizona">
+        <img src="arizona.jpg" alt="애리조나">
+        <div class="tour">
+            <h3 class="tour_title">Arizona</h3>
+    <p class="tour_desc">말로만 듣던 그랜드캐년이 있는곳 죽기전에 꼭 가봐야할 여행지</p>    
+        </div>
+    </li>    
+    <li class="georgia">
+        <img src="georgia.jpg" alt="조지아">
+        <div class="tour">
+            <h3 class="tour_title">Georgia</h3>
+    <p class="tour_desc">엄청난 규모의 한인타운과 한인마트 그리고 코카콜라의 본고장 가면 세계의 코카콜라를 맛볼 수 있다.</p>
+        </div>
+    </li>
+    <li class="newyork">
+        <img src="newyork.jpg" alt="뉴욕">
+        <div class="tour">
+            <h3 class="tour_title">New york</h3>
+    <p class="tour_desc"> 걷기만 해도 영화촬영지 타임스퀘어부터 엠파이어스테이트 빌딩까지, 먹기만 해도 즐거운 맛집들도 즐비하다</p>
+        </div>
+    </li>
+    </ul>
+</body>
+</html>
